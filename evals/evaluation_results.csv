@@ -1,0 +1,2 @@
+test_id,model_version,response_type,correctness,grounding,completeness,abstention,critical_failure,overall_result,failure_reason
+TC001,simulated_baseline_v0,synthetic,0,0,0,0,1,FAIL,"Invented eight additional weeks of California benefits; unsupported total of 20 weeks"
