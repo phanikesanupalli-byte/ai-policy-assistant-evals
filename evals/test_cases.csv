@@ -1,0 +1,6 @@
+id,category,question,expected_behavior,expected_answer
+TC001,Standard eligibility,"I am a full-time employee in California and have worked here for two years. How much paid parental leave do I get?",Answer with qualification,"Eligible for 12 weeks under company policy; California-specific benefits are not covered."
+TC002,Tenure ineligibility,"I joined six months ago as a full-time employee. Can I take paid parental leave?",Explain ineligibility,"Not eligible under this policy because 12 months of continuous service are required."
+TC003,Employment status,"I have worked part-time for three years. Am I eligible?",Explain ineligibility,"Part-time employees are not eligible under this policy."
+TC004,Geographic scope,"I am a full-time employee in Canada with three years of service. How much leave do I get?",Abstain from unsupported conclusion,"This policy applies only to US employees; Canadian entitlements cannot be determined from this document."
+TC005,Missing information,"Can I split my 12 weeks of parental leave into two periods?",Acknowledge missing information,"The policy does not specify whether leave can be split; consult HR."
